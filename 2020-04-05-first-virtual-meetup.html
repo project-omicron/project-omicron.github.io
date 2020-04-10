@@ -53,88 +53,53 @@
   </nav>
 
   <!-- Page Header -->
-  <header class="masthead" style="background-image: url('img/home-bg.jpg')">
+  <header class="masthead" style="background-image: url('img/post-bg.jpg')">
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
-          <div class="site-heading">
-            <h1>Blog</h1>
-            <span class="subheading">Here we share what we learned!</span>
+          <div class="post-heading">
+            <h1>First virtual meetup.</h1>
+            <span class="meta">Posted by
+              <a href="#">Dmytro Kurbakov</a>
+              on April 5, 2020</span>
           </div>
         </div>
       </div>
     </div>
   </header>
 
-  <!-- Main Content -->
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 col-md-10 mx-auto">
-          <div class="post-preview">
-          <a href="2020-04-05-first-virtual-meetup.html">
-            <h2 class="post-title">
-              First virtual meetup.
-            </h2>
-            <h3 class="post-subtitle">
-              Corona crisis force people to adapt to the new reality. We faced the challenge and had our first virtual meetup.
-            </h3>
-          </a>
-          <p class="post-meta">Posted by
-            <a href="#">Dmytro Kurbakov</a>
-            on April 8, 2020</p>
-        </div>
-        <hr>
-        <div class="post-preview">
-          <a href="2020-03-01-sensors-set-up.html">
-            <h2 class="post-title">
-              New home at MotionLab.
-            </h2>
-            <h3 class="post-subtitle">
-              MotionLab kindly provides space for our meetups.
-            </h3>
-          </a>
-          <p class="post-meta">Posted by
-            <a href="#">SM, Michal Slonina, Dmytro Kurbakov</a>
-            on March 1, 2020</p>
-        </div>
-        <hr>
-        <div class="post-preview">
-          <a href="2020-02-16-first-working-meeting.html">
-            <h2 class="post-title">
-              First working meeting. Architecture, milestones, first progress.
-            </h2>
-            <h3 class="post-subtitle">
-              The goal is set! Let's make it real!
-            </h3>
-          </a>
-          <p class="post-meta">Posted by
-            <a href="#">Kurbakov Dmytro</a>
-            on February 26, 2020</p>
-        </div>
-        <hr>
-        <div class="post-preview">
-          <a href="2020-02-02-kick-off-meeting.html">
-            <h2 class="post-title">
-              Our kick off meeting.
-            </h2>
-            <h3 class="post-subtitle">
-              Our very first meeting happend.
-            </h3>
-          </a>
-          <p class="post-meta">Posted by
-            <a href="#">Kurbakov Dmytro</a>
-            on February 16, 2020</p>
-        </div>
-        <hr>
+  <!-- Post Content -->
+  <article>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <h2 class="section-heading">New home.</h2>
 
-        <!-- Pager -->
-        <div class="clearfix">
-          <a class="btn btn-primary float-right" href="#">Older Posts &rarr;</a>
+          <p>Corona virus outbracke significantly influenced our daily way of life. We should adapt to the new reality and new way of working.</p>
+          
+          <p>We value all participants and health is the priority number one. So we decided to move all our metups to virtual meetups. I want to thay thank you to everyone who putted all effords to make in happen.</p>
+
+          <br>
+
+          <p>Currently we will have a virtual meetup every Sunday, at 12am. We decided to keep working and move towards our goal: join Robocup@Work 2021.</p>
+          
+          <p>To make it happen we created the simulation environment in Gazebo, where you can already see the robot, lidar, stereo camera, odometry and IMU. It is all what we need to work on map generation and localization in real time. We currently working on improvement the simulation and will keep working on simulation of the arena of the Robocup arena.</p>
+
+          <p>Whant to try it out? See our <a href="https://github.com/project-omicron/gazebo_simulation"></a>repository for simulation</p>.
+
+          <br>
+
+          <p>We also addressed the problem of the varity of working enviriments on each feveloper machines. So we have a docker image that you can use to make sure you do not waste your time of setting up the ROS and all dependencies.</p>
+
+          <p>Chek it our and let us know if you need anything else. Docker image can be found <a href="https://github.com/project-omicron/docker">here</a>.</p>
+
+          <br>
+          <p>Stay safe and see you soon!</p>
         </div>
       </div>
     </div>
-  </div>
+  </article>
 
   <hr>
 
@@ -168,7 +133,6 @@
                 </span>
               </a>
             </li>
-
           </ul>
           <p class="copyright text-muted">Copyright &copy; Project Omicron 2020</p>
         </div>
